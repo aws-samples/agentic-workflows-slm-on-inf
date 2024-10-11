@@ -1,0 +1,16 @@
+   document.addEventListener('DOMContentLoaded', function() {
+     const testimonials = document.querySelectorAll('.testimonial');
+     let currentTestimonial = 0;
+
+     function showNextTestimonial() {
+       testimonials[currentTestimonial].style.display = 'none';
+       currentTestimonial = (currentTestimonial + 1) % testimonials.length;
+       testimonials[currentTestimonial].style.display = 'block';
+     }
+
+     // Show the first testimonial
+     testimonials[0].style.display = 'block';
+
+     // Change testimonial every 5 seconds
+     setInterval(showNextTestimonial, 5000);
+   });
