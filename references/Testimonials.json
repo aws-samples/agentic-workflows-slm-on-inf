@@ -1,0 +1,22 @@
+{
+  "testimonials": [
+    {
+      "text": "AnyCompany Consulting's expert consulting services have been invaluable in streamlining our operations and optimizing our construction processes, resulting in increased efficiency and cost savings",
+      "author": "John Smith",
+      "position": "CTO",
+      "company": "Example Corp Solutions"
+    },
+    {
+      "text": "AnyCompany Consulting's top-notch consulting solutions have transformed our organization, enabling us to tackle complex challenges, fostering innovation, and propelling our growth to new heights.",
+      "author": "Alejandro Rosalez",
+      "position": "COO",
+      "company": "AnyDepartment Stores"
+    },
+    {
+      "text": "AnyCompany Consulting's strategic advisory services have been instrumental in strengthening our governance frameworks, enhancing transparency, and ensuring compliance with regulatory requirements, facilitating seamless public service delivery.",
+      "author": "Jane Doe",
+      "position": "Governor",
+      "company": "AnyGovernment"
+    }
+  ]
+}
